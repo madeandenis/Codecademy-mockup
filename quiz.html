@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeCademyReplica</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <div class="nav-left">
+          <a href="index.html">
+            <img src="logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)">
+          </a>
+          <ul class="menu">
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <ul class="desktop-nav">
+            <li><img src="searchIcon.png" alt="searchIcon" class="searchIcon"></li>
+            <li><a href="index.html#signUP" class="login">Log in</a></li>
+            <li><a href="index.html#signUP" class="signup">Sign Up</a></li>
+          </ul>
+          <div class="mobile-nav">
+            <a href="#" class="login">Log in</a>
+            <img src="menuIcon.png" alt="menuIcon" class="menuIcon" onclick="openNav()">
+          </div>         
+      </nav>
+    </header>
+
+    <div id="mobile-fullscrenMenu" class="overlay">
+      <div class="overlay-header">
+        <a href="index.html"><img src="logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)"></a>
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+      </div>
+      <form id="searchBox">
+        <img src="searchIcon.png">
+        <input type="text" name="search" placeholder="Search our catalog">
+      </form>
+      <div class="overlay-content">
+        <a href="#">Catalog</a>
+        <a href="#">Resources</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="quiz.html">Take our quiz</a>
+      </div>
+      <div class="hline"></div>
+      <div class="overlay-login">
+          <a href="index.html" class="signup"  onclick="closeNav()">Sign Up</a>
+          <a href="index.html" class="signup"  onclick="closeNav()">Log in</a>
+      </div>
+    </div>
+    
+    <div class="LiveQuiz">
+      <div class="quiz-questions-container">
+          <p id="question-number"></p>
+          <h1 id="question"></h1>
+      </div>
+      <div class="answer-questions-container">
+          <div class="answer-buttons">
+              <button id="option1"></button>
+              <button id="option2"></button>
+              <button id="option3"></button>
+              <button id="option4"></button>
+          </div>   
+      </div>
+    </div>
+  
+   <script src="script.js"></script>
+
+  </body>
+</html>

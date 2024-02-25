@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pricing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <a href="index.html">
+            <img src="logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)">
+          </a>
+          <ul class="menu">
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <ul class="desktop-nav">
+            <li><img src="searchIcon.png" alt="searchIcon" class="searchIcon"></li>
+            <li><a href="index.html#signUP" class="login">Log in</a></li>
+            <li><a href="index.html#signUP" class="signup">Sign Up</a></li>
+          </ul>
+          <div class="mobile-nav">
+            <a href="#" class="login">Log in</a>
+            <img src="menuIcon.png" alt="menuIcon" class="menuIcon" onclick="openNav()">
+          </div>         
+      </nav>
+    </header>
+
+    <div id="mobile-fullscrenMenu" class="overlay">
+      <div class="overlay-header">
+        <a href="index.html"><img src="logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)"></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      </div>
+      <form id="searchBox">
+        <img src="searchIcon.png">
+        <input type="text" name="search" placeholder="Search our catalog">
+      </form>
+      <div class="overlay-content">
+        <a href="#">Catalog</a>
+        <a href="#">Resources</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="quiz.html">Take our quiz</a>
+      </div>
+      <div class="hline"></div>
+      <div class="overlay-login">
+          <a href="index.html" class="signup"  onclick="closeNav()">Sign Up</a>
+          <a href="index.html" class="signup"  onclick="closeNav()">Log in</a>
+      </div>
+    </div>
+    
+    <h1 class="course-heading-title pricing">Find a plan that fits your goals</h1>
+    
+    <section class="pricing-section">
+        
+        <div class="pricing-container basic">
+            <div class="pricing-type">
+              <p>Basic</p>
+            </div>
+            <div class="pricing-price">
+              <h3><img src="Dollar-Sign-Sans-Serif.svg" class="dollar"></span>0</h3>
+              <p>Allways free</p>
+            </div>
+
+            <div class="dotted-line-plan">....................................................</div>
+
+            <div class="pricing-info">
+                <p>Start learning something new <br>with basic access</p>
+            </div>
+
+            <div class="subsol-pricing">
+                <a href="index.html#signUP"><button class="link-button">Sign Up</button></a>
+            </div>
+          </div>
+  
+        <div class="pricing-container plus">
+          <div class="pricing-type">
+            <p>Plus</p>
+          </div>
+          <div class="pricing-price">
+            <h3><img src="Dollar-Sign-Sans-Serif.svg" class="dollar"></span>13</h3>
+            <p>Billed annualy<br>or $17.49 billed monthly</p>
+            <div class="petty-cash">
+              <h1>.99</h1>
+              <p>/mo</p>
+            </div>
+          </div>
+
+          <div class="dotted-line-plan">....................................................</div>
+
+          <div class="pricing-info">
+              <p>Build in-demand technical skills<br>for work or a personal project</p>
+          </div>
+
+          <div class="subsol-pricing">
+              <button class="link-button">Try Plus for free</button>
+          </div>
+        </div>
+  
+        <div class="pricing-container pro">
+          <div class="pricing-type">
+            <p>Pro</p>
+          </div>
+          <div class="pricing-price">
+            <h3><img src="Dollar-Sign-Sans-Serif.svg" class="dollar"></span>23</h3>
+            <p>Billed annualy<br>or $29.99 billed monthly</p>
+            <div class="petty-cash">
+              <h1>.99</h1>
+              <p>/mo</p>
+            </div>
+          </div>
+
+          <div class="dotted-line-plan">....................................................</div>
+
+          <div class="pricing-info">
+              <p>Develop the skills and experience<br>to land a job in tech</p>
+          </div>
+
+          <div class="subsol-pricing">
+              <button class="link-button">Try Pro for free</button>
+          </div>
+        </div>
+
+      </section>
+
+      <h1 class="course-heading-title questions-heading">Frequently asked questions</h1>
+
+        <div class="accordion-body">
+          <div class="accordion">
+            <h1>General</h1>
+             
+              <div class="accordion-container">
+                <div class="label">What's the difference between Basic, Plus, and Pro?</div>
+                <div class="content">The Basic plan gives you access to free courses and the ability to start some more advanced courses.<br><br>
+                  Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Pro is for those looking to start or advance their career. In addition to all the features from Basic and Plus, Pro includes career paths, interview prep skill paths, code challenges, and career services.<br><br>Pro learners can also earn professional certifications in select career paths. To earn a professional certification, you need to pass a series of exams. Exams consist of multiple choice and coding questions. Professional certifications are currently available for Full-Stack Engineer, Front-End Engineer, Back-End Engineer, Data Scientist: Machine Learning, Data Scientist: Analytics, and Computer Science.                 
+                </div>
+              </div>
+               
+              <div class="accordion-container">
+                <div class="label">Do I need to know how to code before signing up?</div>
+                <div class="content">The Basic plan gives you access to free courses and the ability to start some more advanced courses.<br><br>
+                  Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Pro is for those looking to start or advance their career. In addition to all the features from Basic and Plus, Pro includes career paths, interview prep skill paths, code challenges, and career services.<br><br>Pro learners can also earn professional certifications in select career paths. To earn a professional certification, you need to pass a series of exams. Exams consist of multiple choice and coding questions. Professional certifications are currently available for Full-Stack Engineer, Front-End Engineer, Back-End Engineer, Data Scientist: Machine Learning, Data Scientist: Analytics, and Computer Science.                 
+                </div>
+              </div>
+               
+              <div class="accordion-container">
+                <div class="label">What are skill paths and career paths?</div>
+                <div class="content">The Basic plan gives you access to free courses and the ability to start some more advanced courses.<br><br>
+                  Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Pro is for those looking to start or advance their career. In addition to all the features from Basic and Plus, Pro includes career paths, interview prep skill paths, code challenges, and career services.<br><br>Pro learners can also earn professional certifications in select career paths. To earn a professional certification, you need to pass a series of exams. Exams consist of multiple choice and coding questions. Professional certifications are currently available for Full-Stack Engineer, Front-End Engineer, Back-End Engineer, Data Scientist: Machine Learning, Data Scientist: Analytics, and Computer Science.                 
+                </div>
+              </div>
+               
+              <div class="accordion-container">
+                <div class="label">What's the difference between a certificate of completion and a professional certification?</div>
+                <div class="content">The Basic plan gives you access to free courses and the ability to start some more advanced courses.<br><br>
+                  Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Pro is for those looking to start or advance their career. In addition to all the features from Basic and Plus, Pro includes career paths, interview prep skill paths, code challenges, and career services.<br><br>Pro learners can also earn professional certifications in select career paths. To earn a professional certification, you need to pass a series of exams. Exams consist of multiple choice and coding questions. Professional certifications are currently available for Full-Stack Engineer, Front-End Engineer, Back-End Engineer, Data Scientist: Machine Learning, Data Scientist: Analytics, and Computer Science.                 
+                </div>
+              </div>
+               
+              <div class="accordion-container">
+                <div class="label">Do you offer a student discount?</div>
+                <div class="content">The Basic plan gives you access to free courses and the ability to start some more advanced courses.<br><br>
+                  Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Both Plus and Pro include everything in Basic, plus extra content and features like real-world projects, guided paths, and quizzes and practice to test your skills as you learn.<br><br>Pro is for those looking to start or advance their career. In addition to all the features from Basic and Plus, Pro includes career paths, interview prep skill paths, code challenges, and career services.<br><br>Pro learners can also earn professional certifications in select career paths. To earn a professional certification, you need to pass a series of exams. Exams consist of multiple choice and coding questions. Professional certifications are currently available for Full-Stack Engineer, Front-End Engineer, Back-End Engineer, Data Scientist: Machine Learning, Data Scientist: Analytics, and Computer Science.                 
+                </div>
+              </div>       
+          </div>
+        </div>
+
+
+        <footer>
+          <div class="footer-container">
+    
+            <div class="footer-column">
+              <h4>Career building</h4>
+              <ul>
+                <li>Career paths</li>
+                <li>Career services</li>
+                <li>Interview prep</li>
+                <li>Professional certification</li>
+              </ul>
+              <h4>Mobile</h4>
+                <img src="appStore.png">
+                <img src="googlePlay.png">
+            </div>
+            <div class="footer-column">
+              <h4>Plans</h4>
+              <ul>
+                <li>Paid memberships</li>
+                <li>For Students</li>
+                <li>Business solutions</li>
+              </ul>
+              <h4>Community</h4>
+              <ul>
+                <li>Forums</li>
+                <li>Chapters</li>
+                <li>Events</li>
+              </ul>
+            </div>
+    
+            <div class="vertical-divider"></div>
+    
+            <div class="footer-column">
+              <h4>Subjects</h4>
+              <ul>
+                <li>AI</li>
+                <li>Cloud Computing</li>
+                <li>Computer Science</li>
+                <li>Cybersecurity</li>
+                <li>Data Science</li>
+                <li>Game Development</li>
+                <li>Machine Learning</li>
+                <li>Web Design</li>
+                <li>Web Development</li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Languages</h4>
+              <ul>
+                <li>C / C++</li>
+                <li>C#</li>
+                <li>HTML & CSS</li>
+                <li>JAVA</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+                <li>PHP</li>
+                <li>Python</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="horizontal-divider"></div>
+    
+          <div class="footerPolicy">
+            <ul>
+                <li>Privacy policy</li>
+                <li>|</li>
+                <li>Cookie policy</li>
+                <li>|</li>
+                <li>Do Not Sell My Personal Information</li>
+                <li>|</li>
+                <li>Terms</li>
+              </ul> 
+              <p>Made with  <span class="hearth">&#10084;</span> by Denis &copy; 2023</p>      
+          </div>
+    
+        </footer>
+
+  <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
