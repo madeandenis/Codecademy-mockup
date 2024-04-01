@@ -1,6 +1,6 @@
 function changeImage(img) {
   img.originalSrc = img.src;
-  img.src = "logoPurple.png";
+  img.src = "../logo/logoPurple.png";
 }
 
 function restoreImage(img) {

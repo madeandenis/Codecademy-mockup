@@ -4,8 +4,8 @@
     <title>CodeCademyReplica</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
   </head>
 
   <body>
@@ -13,7 +13,7 @@
       <nav>
         <div class="nav-left">
           <a href="index.html">
-            <img src="logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)">
+            <img src="logo/logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)">
           </a>
           <ul class="menu">
             <li><a href="#courses">Catalog</a></li>
@@ -23,13 +23,13 @@
         </div>
         <div class="nav-right">
           <ul class="desktop-nav">
-            <li><img src="searchIcon.png" alt="searchIcon" class="searchIcon"></li>
+            <li><img src="icon/searchIcon.png" alt="searchIcon" class="searchIcon"></li>
             <li><a href="#signUP" class="login">Log in</a></li>
             <li><a href="#signUP" class="signup" id="signUpIndex">Sign Up</a></li>
           </ul>
           <ul class="mobile-nav">
             <li><a href="#" class="login">Log in</a></li>
-            <li><img src="menuIcon.png" alt="menuIcon" class="menuIcon" onclick="openNav()"></li>
+            <li><img src="icon/menuIcon.png" alt="menuIcon" class="menuIcon" onclick="openNav()"></li>
           </ul>        
         </div>
       </nav>
@@ -37,11 +37,11 @@
 
     <div id="mobile-fullscrenMenu" class="overlay">
       <div class="overlay-header">
-        <a href="index.html"><img src="logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)"></a>
+        <a href="index.html"><img src="logo/logoBlue.png" alt="Logo" class="logo" onmouseover="changeImage(this)" onmouseout="restoreImage(this)"></a>
         <a class="closebtn" onclick="closeNav()">&times;</a>
       </div>
       <form id="searchBox">
-        <img src="searchIcon.png">
+        <img src="/icon/searchIcon.png">
         <input type="text" name="search" placeholder="Search our catalog">
       </form>
       <div class="overlay-content">
@@ -58,7 +58,7 @@
     </div>
 
     <section class="hero-section" id="signUP">
-      <img src="heroImg.jpg" class="heroImage" alt="hero-image">
+      <img src="/images/heroImg.jpg" class="heroImage" alt="hero-image">
       <div class="right-side">
         <div class="hero-content">
           <h1>Millions are learning to code for free on Codecademy. Join us!</h1>
@@ -71,11 +71,11 @@
           </form>
           <p>By signing up for Codecademy, you agree to Codecademy's <span class="policy">Terms of Service</span> & <span class="policy">Privacy Policy</span>.</p>
           <div class="social-buttons">
-            <img src="icons8-google-48.png" href="#">
-            <img src="icons8-facebook-48.png" href="#">
-            <img src="icons8-linkedin-48.png" href="#">
-            <img src="icons8-github-48.png" href="#">
-            <img src="icons8-stack-overflow-48.png" href="#">
+            <img src="/icon/icons8-google-48.png" href="#">
+            <img src="/icon/icons8-facebook-48.png" href="#">
+            <img src="/icon/icons8-linkedin-48.png" href="#">
+            <img src="/icon/icons8-github-48.png" href="#">
+            <img src="/icon/icons8-stack-overflow-48.png" href="#">
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@
         </div>
         <div class="dotted-line">.................................</div>
         <div class="course-subsol">
-          <img src="icons8-no-connection-24.png">
+          <img src="/icon/icons8-no-connection-24.png">
           <p><b>Beginner</b> friendly</p>
           <p><b>7</b> Lessons</p>
         </div>
@@ -114,7 +114,7 @@
         </div>
         <div class="dotted-line">.................................</div>
         <div class="course-subsol">
-          <img src="icons8-no-connection-24.png">
+          <img src="/icon/icons8-no-connection-24.png">
           <p><b>Beginner</b> friendly</p>
           <p><b>6</b> Lessons</p>
         </div>
@@ -130,7 +130,7 @@
         </div>
         <div class="dotted-line">.................................</div>
         <div class="course-subsol">
-          <img src="icons8-no-connection-24.png">
+          <img src="/icon/icons8-no-connection-24.png">
           <p><b>Beginner</b> friendly</p>
           <p><b>7</b> Lessons</p>
         </div>
@@ -146,7 +146,7 @@
         </div>
         <div class="dotted-line">.................................</div>
         <div class="course-subsol">
-          <img src="icons8-no-connection-24.png">
+          <img src="/icon/icons8-no-connection-24.png">
           <p><b>Beginner</b> friendly</p>
           <p><b>7</b> Lessons</p>
         </div>
@@ -178,7 +178,7 @@
         </div>
       </div>
       <div class="right-side-quiz">
-        <img src="blueWindow.svg">
+        <img src="/svg/blueWindow.svg">
       </div>
     </section>
 
@@ -188,22 +188,22 @@
       <p id="antetP">Watch and read stories from the Codecademy community.</p>
       <div class="stories-container">
         <div class="story">
-          <img src="person1.jpg" alt="learner portrait">
+          <img src="/images/person1.jpg" alt="learner portrait">
           <h3>Technical Analyst to Front-End Engineer in 6 Months </h3>
           <p>Cristina T., Front-End Engineer @ Grid Dynamics, Guadalajara</p>
         </div>
         <div class="story">
-          <img src="person2.jpg" alt="learner portrait">
+          <img src="/images/person2.jpg" alt="learner portrait">
           <h3>Freelancer to Developing Apps for NASA</h3>
           <p>De'Shaun B., Associate Software Engineer, Winter Park</p>
         </div>
         <div class="story">
-          <img src="person3.jpg" alt="learner portrait">
+          <img src="/images/person3.jpg" alt="learner portrait">
           <h3>Lessons from a Product Owner turned Engineer</h3>
           <p>Serena I., Software Developer @ Adidas, South Holland</p>
         </div>
         <div class="story">
-          <img src="person4.jpg" alt="learner portrait">
+          <img src="/images/person4.jpg" alt="learner portrait">
           <h3>From Film to Full-Stack Engineer in 11 Months</h3>
           <p>Julia J., Ruby on Rails Developer, São Paulo</p>
         </div>
@@ -212,7 +212,7 @@
 
     <section class="business-section">
       <div class="left-side-business">
-        <img src="logoWhite.png">
+        <img src="/logo/logoWhite.png">
         <div class="business-text">
           <h1>Level up your team's skills<h1>
         <br>
@@ -221,13 +221,13 @@
         </div>
       </div>
       <div class="right-side-business">
-        <img src="combSVG.svg">
+        <img src="/svg/combSVG.svg">
       </div>
     </section>
     
     <section class="business-section signupReturn">
       <div class="right-side-business">
-        <img src="signUpEnd.webp">
+        <img src="/images/signUpEnd.webp">
       </div>
       <div class="left-side-business">
         <div class="business-text">
@@ -251,8 +251,8 @@
             <li>Professional certification</li>
           </ul>
           <h4>Mobile</h4>
-            <img src="appStore.png">
-            <img src="googlePlay.png">
+            <img src="/icons/appStore.png">
+            <img src="/icons/googlePlay.png">
         </div>
         <div class="footer-column">
           <h4>Plans</h4>
